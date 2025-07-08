@@ -11,7 +11,7 @@ def HomePage(request):
         #Creating a variable name that will capture the field names {student_name} from the form
         name = form_data['student_name']
         #Creating a variable name that will capture the second field {lucky_number} from the form
-        luck_number = form_data['lukcy_number']
+        luck_number = form_data['lucky_number']
 
         
         #Below indicates what we want to do with the data received from the form.
