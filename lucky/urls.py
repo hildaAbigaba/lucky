@@ -17,8 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from home.views import HomePage
+from home.views import ContextPage
+from home.views import profilepage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',HomePage),
+    path('context/', ContextPage),
+    path('profile/', profilepage)
 ]
