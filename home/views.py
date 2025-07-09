@@ -35,13 +35,14 @@ def ContextPage(request):
 
     return render(request, 'context.html', my_context)
 
+
 def profilepage(request):
     age = 2025-1967
     context = {
-        'profile' : "Joanna's Profile",
+        'profile': "Joanna's Profile",
         'name': "Joanna",
-        'nin' : "CF67890655GTHD78",
-        'course' : "CSE Python",
-        'age' : age
+        'nin': "CF67890655GTHD78",
+        'course': "CSE Python",
+        'age': age
     }
     return render(request, 'profile.html', context)
